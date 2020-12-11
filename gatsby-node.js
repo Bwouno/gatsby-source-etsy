@@ -26,6 +26,8 @@ exports.sourceNodes = async (
     queryParams
   )
 
+  // TEST
+
   // * Process listings
   const listingProcessingJobs = listings.map(async listing => {
     const { listing_id } = listing
